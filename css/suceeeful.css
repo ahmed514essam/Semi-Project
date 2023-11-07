@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Sofia+Sans+Semi+Condensed:wght@500&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,400&family=Yellowtail&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../imges/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    flex-direction: column;  
+    margin: auto;
+    width: 97%;
+    background-color: white;
+    justify-content: center;
+  border: 2px solid rgb(56, 56, 56);
+  height: 150px;
+  margin-top: 10px;
+  position:sticky;
+  z-index: 999;
+  }
+  header .dropdown {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 50px;
+      gap: 5px;
+  align-items: center;
+  }
+  header .aho {
+      color: black;
+      background-color: white;
+      border: 0;
+  } 
+  header .sal {
+      background-color: black;
+      color: white;
+      padding: 10px 15px;
+  }
+  header .btn-secondary{
+      font-size: .9em;
+      width: 100px;
+      background-color: white;
+      color: black;
+      border: 0;
+  }
+  header .nam {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  header .aha {
+      width: 200px;
+  }
+  header h1 {
+  font-size: 2em;
+  font-family: 'Great Vibes';
+  text-align: center;
+  
+  
+      font-weight: 600;
+   color: rgb(71, 71, 71);
+  }
+  header .mar {
+      margin-right: 10px;
+  }
+  
+  header span {
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  #asd:hover {
+      color: red;
+      border-top: 1px solid red ;
+      padding: 0;
+  }
+.scrol-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.ok {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.oky {
+    text-align: center;
+}
+
+
+
+
+
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.footer a {
+    text-decoration: none;
+   font-size: .9em;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+}
+.footer a:hover {
+  color: red;  
+}
+.footer button {
+    border: 0;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1.2s ease;
+    -webkit-transition: 1.2s ease;
+    -moz-transition: 1.2s ease;
+    -ms-transition: 1.2s ease;
+    -o-transition: 1.2s ease;
+}
+
+.footer .bbtt:hover {
+    background-color: red;
+}
+.six button:hover {
+    background-color: red;
+}
+footer {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    font-size: .6em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.llin {
+    margin-right: 7px;
+    
+}
+.llin a{
+    margin-right: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    transition: 1.1s ease;
+    -webkit-transition: 1.1s ease;
+    -moz-transition: 1.1s ease;
+    -ms-transition: 1.1s ease;
+    -o-transition: 1.1s ease;
+}
+.llin a:hover {
+    color: red;
+}
+.by a {
+    margin-left: 15px;
+    transition: 1.1s ease;
+    -webkit-transition: 1.1s ease;
+    -moz-transition: 1.1s ease;
+    -ms-transition: 1.1s ease;
+    -o-transition: 1.1s ease;
+    text-decoration: none;
+    color: black;
+}
+.by a:hover {
+    color: red;
+} 

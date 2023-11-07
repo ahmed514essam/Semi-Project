@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+    margin-top: 8em;
+    margin-left: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content h1 {
+    text-align: center;
+    font-family: 'Great Vibes';
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.content button{
+    width: 30%;
+ margin-top: 3em;
+ margin-left: 10em;
+ color: white;
+ border: 0;
+ background-color: black;
+ font-family: 'Times New Roman', Times, serif;
+font-size: 1.0em;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.content span {
+    font-weight: 100;
+}
+.error {
+    margin: auto;
+    width: 25%;
+background-color: rgb(255, 255, 255);
+height: 40px; 
+text-align: center;  
+
+}
+.error .not {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 100%;
+    font-size: 1.5em;
+ color: red;
+}
+
+@media (max-width:320px){
+    .content {
+        margin: auto;
+        width: 50%;
+        margin-top: 8em;
+        margin-left: 16em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .content h1 {
+        text-align: center;
+        font-family: 'Great Vibes';
+    }
+    .one {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+    .content button{
+        width: 30%;
+     margin-top: 3em;
+     margin-left: 10em;
+     color: white;
+     border: 0;
+     background-color: black;
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .content span {
+        font-weight: 100;
+    }
+    .error {
+        margin: auto;
+        width: 25%;
+    background-color: rgb(255, 255, 255);
+    height: 40px; 
+    text-align: center;  
+    
+    }
+    .error .not {
+        background-color: rgb(255, 255, 255);
+        height: 20px;
+        width: 100%;
+        font-size: 1.5em;
+     color: red;
+    }
+}

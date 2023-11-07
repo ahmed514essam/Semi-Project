@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Sofia+Sans+Semi+Condensed:wght@500&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,400&family=Yellowtail&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    flex-direction: column;  
+    margin: auto;
+    width: 97%;
+    justify-content: center;
+  border: 2px solid rgb(56, 56, 56);
+  height: 150px;
+  margin-top: 10px;
+  position:sticky;
+  z-index: 999;
+  }
+  header .dropdown {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 50px;
+      gap: 5px;
+  align-items: center;
+  }
+  header .aho {
+      color: black;
+      background-color: white;
+      border: 0;
+  } 
+  header .sal {
+      background-color: black;
+      color: white;
+      padding: 10px 15px;
+  }
+  header .btn-secondary{
+      font-size: .9em;
+      width: 100px;
+      background-color: white;
+      color: black;
+      border: 0;
+  }
+  header .nam {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  header .aha {
+      width: 200px;
+  }
+  header h1 {
+  font-size: 2em;
+  font-family: 'Great Vibes';
+  text-align: center;
+  
+  
+      font-weight: 600;
+   color: rgb(71, 71, 71);
+  }
+  header .mar {
+      margin-right: 10px;
+  }
+  
+  header span {
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  #asd:hover {
+      color: red;
+      border-top: 1px solid red ;
+      padding: 0;
+  }
+.scrol-img img {
+    object-fit: cover;
+    width: 100%;
+}
+.one {
+    height: 600px;
+    margin-bottom: 3em;
+}
+.scrol-img {
+    margin: auto;
+    width: 66%;
+  
+height: 400px;
+    z-index: 20;
+}
+.write {
+    border: .5px solid rgb(75, 75, 75);
+    width: 250px;
+
+    margin-bottom: 10em;
+    align-items: center;
+ text-align: center;
+position: absolute;
+bottom: 0;
+left: 75px;
+
+ background-color: white;
+ border: none;
+ 
+}
+.write h2 {
+    margin-top: .6em;
+    font-family: 'Great Vibes';
+    font-size: 2.7em;
+position:-ms-page;    
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.two p {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(92, 92, 92);
+    font-family: 'Times New Roman', Times, serif;
+}
+.two a {
+    color: goldenrod;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.two .social {
+    gap: 5px;
+}
+.social svg {
+    font-size: 2em;
+    opacity: 70%;
+}
+.social svg:hover {
+    opacity: 100%;
+}
+.two .emy {
+    padding: 10px 15px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+letter-spacing: 2px;
+}
+.dropdown-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8em;
+}
+.three {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carde {
+    margin-top:2em ;
+    margin-bottom: 3em;
+text-align: center;
+}
+.three-imge img {
+    object-fit: cover;
+    width: 100%;
+}
+.three-imge {
+    margin-top: 2em;
+}
+.carde .ii {
+    height: 30%;
+    border-bottom: 2px solid black;
+}
+.three hr {
+    font-size: 3em;
+    font-weight: 700;
+}
+.carde .card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+.ii h4 {
+    font-family: 'Great Vibes';
+    padding-top: 1.6em;  
+    font-size: 1.9em;
+}
+.carde button {
+    padding: 5px 23px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    transition: 1.1s ease;
+    -webkit-transition: 1.1s ease;
+    -moz-transition: 1.1s ease;
+    -ms-transition: 1.1s ease;
+    -o-transition: 1.1s ease;
+}
+.carde button:hover {
+    background-color: red;
+
+}
+.carde .btn-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+height: 500px;
+}
+.five button {
+    width: 250px;
+    padding: 20px 25px;
+    font-family: 'Great Vibes';
+    background-color: white;
+    font-size: 1.9em;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.footer a {
+    text-decoration: none;
+   font-size: .9em;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+}
+.footer a:hover {
+  color: red;  
+}
+.footer button {
+    border: 0;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1.2s ease;
+    -webkit-transition: 1.2s ease;
+    -moz-transition: 1.2s ease;
+    -ms-transition: 1.2s ease;
+    -o-transition: 1.2s ease;
+}
+
+.footer .bbtt:hover {
+    background-color: red;
+}
+.six button:hover {
+    background-color: red;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    font-size: .6em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.llin {
+    margin-right: 7px;
+    
+}
+.llin a{
+    margin-right: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    transition: 1.1s ease;
+    -webkit-transition: 1.1s ease;
+    -moz-transition: 1.1s ease;
+    -ms-transition: 1.1s ease;
+    -o-transition: 1.1s ease;
+}
+.llin a:hover {
+    color: red;
+}
+.by a {
+    margin-left: 15px;
+    transition: 1.1s ease;
+    -webkit-transition: 1.1s ease;
+    -moz-transition: 1.1s ease;
+    -ms-transition: 1.1s ease;
+    -o-transition: 1.1s ease;
+    text-decoration: none;
+    color: black;
+}
+.by a:hover {
+    color: red;
+} 
